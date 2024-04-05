@@ -73,7 +73,9 @@ class _LoginFormState extends State<LoginForm> {
             width: double.infinity,
             title: 'Login',
             disable: false,
-            onPressed: () {},
+            onPressed: () {
+              Navigator.popAndPushNamed(context, '/main');
+            },
           ),
         ],
       ),

@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
           type: BottomNavigationBarType.fixed,
         ),
       ),
-      initialRoute: '/main',
+      initialRoute: '/',
       routes: {
         '/': (context) => const AuthPage(),
         '/main': (context) => const MainLayout(),
