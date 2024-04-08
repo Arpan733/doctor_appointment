@@ -17,7 +17,7 @@ class _DoctorCardState extends State<DoctorCard> {
       height: 150,
       padding: const EdgeInsets.all(10),
       child: GestureDetector(
-        onTap: () {},
+        onTap: () => Navigator.pushNamed(context, '/doctor_details'),
         child: Card(
           elevation: 5,
           color: Colors.white,
