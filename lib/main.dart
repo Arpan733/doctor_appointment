@@ -20,7 +20,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+<<<<<<< HEAD
         scaffoldBackgroundColor: Colors.white,
+=======
+>>>>>>> 360d2596be96406f38b335ddc770ac5dfacd70dc
         inputDecorationTheme: InputDecorationTheme(
           focusColor: Config.primaryColor,
           border: Config.outlineBorder,
@@ -31,6 +34,10 @@ class MyApp extends StatelessWidget {
           ),
           prefixIconColor: Colors.black38,
         ),
+<<<<<<< HEAD
+=======
+        scaffoldBackgroundColor: Colors.white,
+>>>>>>> 360d2596be96406f38b335ddc770ac5dfacd70dc
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           backgroundColor: Config.primaryColor,
           selectedItemColor: Colors.white,
